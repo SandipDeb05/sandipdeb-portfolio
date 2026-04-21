@@ -13,7 +13,8 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white border-t-8 border-primary border-b border-b-border-light px-8 py-4 sticky top-0 z-50">
+    <nav className="w-full bg-white  border-b border-b-border-light px-8 py-4 sticky top-0 z-10">
+      <div className="h-2 p-0 m-0 absolute top-0 left-0 w-full bg-hero-gradient"></div>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="font-bold text-3xl tracking-tight font-serif">
@@ -102,7 +103,7 @@ export default function Navbar() {
           ))}
           <a
             href="notfound"
-            className="inline-block bg-primary text-white text-lg font-medium px-5 py-2.5 rounded-md hover:bg-primary-hover transition-colors duration-200 self-start"
+            className="inline-block bg-hero-gradient text-white text-lg font-medium px-5 py-2.5 rounded-md hover:bg-primary-hover transition-colors duration-200 self-start"
           >
             Read My Latest Blog
           </a>
