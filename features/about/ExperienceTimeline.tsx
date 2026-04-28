@@ -44,7 +44,7 @@ export default function ExperienceTimeline() {
       {/* Timeline */}
       <div className="relative max-w-4xl mx-auto">
         {/* Vertical line */}
-        <div className="absolute left-[180px] top-0 bottom-0 w-px bg-[#d4cfc9]" />
+        <div className="absolute left-45 top-0 bottom-0 w-px bg-[#d4cfc9]" />
 
         <div className="flex flex-col gap-14">
           {experiences.map((exp, idx) => (
