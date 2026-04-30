@@ -13,7 +13,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white  border-b border-b-border-light px-8 py-4 sticky top-0 z-10">
+    <nav className="w-full bg-white  border-b border-b-border-light px-8 md:px-16 py-4 sticky top-0 z-10">
       <div className="h-2 p-0 m-0 absolute top-0 left-0 w-full bg-hero-gradient"></div>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}

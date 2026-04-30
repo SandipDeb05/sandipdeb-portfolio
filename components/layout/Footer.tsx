@@ -9,7 +9,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t px-8 py-8 bg-hero-gradient">
+    <footer className="w-full border-t px-8 md:px-16 py-8 bg-hero-gradient">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo */}
         <a href="/" className="text-white text-3xl tracking-tight font-serif">
